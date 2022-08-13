@@ -10,11 +10,17 @@ int c = (number/100) - ((number/1000)*10);
 int d = (number/10) - ((number/100)*10);
 int e = number%10;
 
+
+
+
 if (a == e && b ==d)
-  Console.WriteLine("Да");
-  
+{
+    Console.WriteLine("Да");
+}
 else if (number >= 100000)
-  Console.WriteLine($"Введи правильное число");
+Console.WriteLine("Введи правильное число");
+else if (number <= 100000)
+Console.WriteLine("Введи правильное число");
 
 else
-  Console.WriteLine("Нет");
+Console.WriteLine("Нет");
