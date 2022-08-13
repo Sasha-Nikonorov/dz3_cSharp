@@ -14,9 +14,8 @@ int e = number%10;
 
 
 if (a == e && b ==d)
-{
     Console.WriteLine("Да");
-}
+
 else if (number >= 100000)
 Console.WriteLine("Введи правильное число");
 else if (number <= 100000)
