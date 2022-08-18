@@ -1,5 +1,5 @@
 Console.WriteLine("Введите:");
-var number = int.Parse(Console.ReadLine()!);
+int number = int.Parse(Console.ReadLine()!);
 
 if (number < 0)
     number *= (-1);
