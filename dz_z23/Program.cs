@@ -1,5 +1,5 @@
-﻿Console.WriteLine("Введите число ");
-var number = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите число ");
+int number = int.Parse(Console.ReadLine()!);
 int count = 1;
 
 // if (number < 0)
@@ -12,7 +12,7 @@ if (number < 0)
 
 while (number >= count)
 {
-    var result = Math.Pow(count, 3);
+    double result = Math.Pow(count, 3);
     count++;
     Console.Write(result + " ");
 }
